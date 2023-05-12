@@ -10,6 +10,16 @@
     <div>
       <button id="myButtonId" class="myButtonClass">My Button</button>
     </div>
+    
+    <button id="refreshButton">Refresh</button>
+
+    <script>
+      const refreshButton = document.getElementById('refreshButton');
+
+      refreshButton.addEventListener('click', () => {
+        location.reload();
+      });
+    </script>
 
     
   </body>
